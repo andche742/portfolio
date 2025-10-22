@@ -20,7 +20,6 @@ function Nav({ showName = false }) {
                     <p>LinkedIn</p>
                 </a>
                <Link to="/projects">Projects</Link>
-               <Link to="/contact">Contact</Link>
            </div>
        </nav>
    )
