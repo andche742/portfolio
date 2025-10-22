@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-=======
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -16,16 +9,10 @@ body {
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
->>>>>>> master
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-<<<<<<< HEAD
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-=======
 a {
   font-weight: 500;
   color: #646cff;
@@ -44,8 +31,19 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 6rem;
+  color: black;
+}
+
+h2 {
+  color: black;
+  font-size: 3rem;
+}
+
+h3 {
+  color: black;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 button {
@@ -78,5 +76,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
->>>>>>> master
 }

@@ -1,15 +1,16 @@
 import icon from '../assets/icon.png';
 import { Link } from "react-router-dom";
-import './Nav.css';
+import './nav.css';
 
-function Nav() {
+function Nav({ showName = false }) {
    return (
        <nav className="navbar">
-            <div className="navbar-left">
-            <Link to="/">
+            
+            <Link to="/" className="navbar-left">
                 <img className="logo" src={icon} alt='Home' height='200' width='200'/>
+                {showName && <h3 className="name">Andrew Chen</h3>}
             </Link>
-           </div>
+           
 
            <div className="navbar-right">
                 <a href="https://github.com/andche742">

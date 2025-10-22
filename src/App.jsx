@@ -1,27 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import Project from './components/project';
-import Nav from './components/nav';
-import headshot from './assets/headshot.png'
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+import Projects from './pages/projects';
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <Nav/>
-      <div className="mainInfo">
-        <img className="pfp" src={headshot} height="500" width="500" alt="Headshot"/>
-        <div className="textInfo">
-          <h1 className="typing">
-            Andrew Chen
-          </h1>
-          <h2>
-            SJSU Data Science
-          </h2>
-        </div>
-      </div>
-    </div>
- );
+    <Routes>
+      <Route path="" element={<Home/>} />
+      <Route path="/projects" element={<Projects/>} />
+    </Routes>
+  );
 }
-
-
-export default App;

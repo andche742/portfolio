@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     height: 15vh;
-    padding: 5vh 5wh;
+    padding: 0 3vw;
     background: white;
     display: flex;
     justify-content: space-between;
@@ -15,18 +15,19 @@
 }
 
 .logo {
-    margin-left: 1000px;
     height: 10vh;
     width: auto;
-    border-radius: 50%; /* makes the image circular */
-    object-fit: cover;  /* ensures it fills the circle properly */
-    overflow: hidden;   /* prevents overflow edges */
+    border-radius: 50%; 
+    object-fit: cover;  
+    overflow: hidden;   
 }
 
 .navbar-left {
-    flex-direction: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
 }
-
 .navbar-right {
     display: flex;
     align-items: center;
