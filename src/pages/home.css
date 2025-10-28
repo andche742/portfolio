@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -7,8 +6,8 @@
 
 .pfp {
   border-radius: 40%;
-  width: 35rem;
-  height: 35rem;
+  width: 60vh;
+  height: auto;
 }
 
 .mainInfo {

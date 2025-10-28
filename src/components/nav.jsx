@@ -14,12 +14,13 @@ function Nav({ showName = false }) {
 
            <div className="navbar-right">
                 <a href="https://github.com/andche742">
-                    <p>Github</p>
+                    Github
                 </a>
                 <a href="https://www.linkedin.com/in/andrew-b-chen742">
-                    <p>LinkedIn</p>
+                    LinkedIn
                 </a>
                <Link to="/projects">Projects</Link>
+               <Link to="/contact">Contact</Link>
            </div>
        </nav>
    )

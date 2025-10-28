@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
+    z-index: 100;
 
 }
 
@@ -39,4 +39,22 @@
     text-decoration: none;
     font-weight: 500;
     font-size: 1.25rem;
+}
+
+.navbar-right a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+.navbar-right a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #d1d5db; 
+    transition: width 200ms ease;
+}
+
+.navbar-right a:hover::after {
+    width: 100%;
 }
